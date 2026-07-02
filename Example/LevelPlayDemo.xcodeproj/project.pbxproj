@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924C002EB12D3FE48A925F37 /* Pods_LevelPlayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A93D7258500B99E4267932 /* Pods_LevelPlayDemo.framework */; };
+		B0B74DD2AAB21DF10CD73311 /* Pods_LevelPlayDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E976B854A568B7F4A3D1A307 /* Pods_LevelPlayDemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1DEMO01CONTAINERPROXY01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1DEMO01PROJECT00000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 471A2A3A1E66D27900217BE4;
+			remoteInfo = LevelPlayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C92BC18A3D67B4F786BE1BA /* Pods-LevelPlayDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelPlayDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LevelPlayDemoTests/Pods-LevelPlayDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C756668A0A4894AA4188A4 /* Pods-LevelPlayDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelPlayDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LevelPlayDemoTests/Pods-LevelPlayDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DB50866BC4B0C7C801C26D3 /* Pods-LevelPlayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelPlayDemo.debug.xcconfig"; path = "Target Support Files/Pods-LevelPlayDemo/Pods-LevelPlayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8ECFBC7DAAD837E9D09A81E9 /* Pods-LevelPlayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LevelPlayDemo.release.xcconfig"; path = "Target Support Files/Pods-LevelPlayDemo/Pods-LevelPlayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B1DEMO01APP0PRODUCT00001 /* LevelPlayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelPlayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DEMO01TST0PRODUCT00001 /* LevelPlayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevelPlayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A93D7258500B99E4267932 /* Pods_LevelPlayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LevelPlayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E976B854A568B7F4A3D1A307 /* Pods_LevelPlayDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LevelPlayDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B1DEMO01EXCEPTSET0000001 /* Exceptions for "LevelPlayDemo" folder in "LevelPlayDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 471A2A3A1E66D27900217BE4 /* LevelPlayDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B1DEMO01FILESYNCGRP00001 /* LevelPlayDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B1DEMO01EXCEPTSET0000001 /* Exceptions for "LevelPlayDemo" folder in "LevelPlayDemo" target */,
+			);
+			path = LevelPlayDemo;
+			sourceTree = "<group>";
+		};
+		B1DEMO01FILESYNCGRP00002 /* LevelPlayDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = LevelPlayDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1DEMO01FRMWRKBUILDPHS01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924C002EB12D3FE48A925F37 /* Pods_LevelPlayDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DEMO01FRMWRKBUILDPHS02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B74DD2AAB21DF10CD73311 /* Pods_LevelPlayDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777A8389B86297DF2D7E7465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5A93D7258500B99E4267932 /* Pods_LevelPlayDemo.framework */,
+				E976B854A568B7F4A3D1A307 /* Pods_LevelPlayDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		996060A9BC0B83EF557325A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DB50866BC4B0C7C801C26D3 /* Pods-LevelPlayDemo.debug.xcconfig */,
+				8ECFBC7DAAD837E9D09A81E9 /* Pods-LevelPlayDemo.release.xcconfig */,
+				0C92BC18A3D67B4F786BE1BA /* Pods-LevelPlayDemoTests.debug.xcconfig */,
+				54C756668A0A4894AA4188A4 /* Pods-LevelPlayDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1DEMO01PRODUCTS0GROUP01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1DEMO01APP0PRODUCT00001 /* LevelPlayDemo.app */,
+				B1DEMO01TST0PRODUCT00001 /* LevelPlayDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1DEMO01ROOT0GROUP000001 = {
+			isa = PBXGroup;
+			children = (
+				B1DEMO01FILESYNCGRP00001 /* LevelPlayDemo */,
+				B1DEMO01FILESYNCGRP00002 /* LevelPlayDemoTests */,
+				B1DEMO01PRODUCTS0GROUP01 /* Products */,
+				996060A9BC0B83EF557325A0 /* Pods */,
+				777A8389B86297DF2D7E7465 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471A2A3A1E66D27900217BE4 /* LevelPlayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DEMO01TGTCFGLIST000001 /* Build configuration list for PBXNativeTarget "LevelPlayDemo" */;
+			buildPhases = (
+				86B8E4090582427BCBEE52A8 /* [CP] Check Pods Manifest.lock */,
+				B1DEMO01SOURCESBUILD0001 /* Sources */,
+				B1DEMO01FRMWRKBUILDPHS01 /* Frameworks */,
+				B1DEMO01RESOURCESBLD0001 /* Resources */,
+				130BDF3FB7348BCF7DF02E5A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B1DEMO01FILESYNCGRP00001 /* LevelPlayDemo */,
+			);
+			name = LevelPlayDemo;
+			productName = LevelPlayDemo;
+			productReference = B1DEMO01APP0PRODUCT00001 /* LevelPlayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D79309FF0A07D2BB020BCAAD /* LevelPlayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DEMO01TSTCFGLIST000001 /* Build configuration list for PBXNativeTarget "LevelPlayDemoTests" */;
+			buildPhases = (
+				98FA0B29F464691DBBB55595 /* [CP] Check Pods Manifest.lock */,
+				B1DEMO01SOURCESBUILD0002 /* Sources */,
+				B1DEMO01FRMWRKBUILDPHS02 /* Frameworks */,
+				B1DEMO01RESOURCESBLD0002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1DEMO01TARGETDEPEND0001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1DEMO01FILESYNCGRP00002 /* LevelPlayDemoTests */,
+			);
+			name = LevelPlayDemoTests;
+			productName = LevelPlayDemoTests;
+			productReference = B1DEMO01TST0PRODUCT00001 /* LevelPlayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1DEMO01PROJECT00000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					471A2A3A1E66D27900217BE4 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					D79309FF0A07D2BB020BCAAD = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 471A2A3A1E66D27900217BE4;
+					};
+				};
+			};
+			buildConfigurationList = B1DEMO01PRJCFGLIST000001 /* Build configuration list for PBXProject "LevelPlayDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1DEMO01ROOT0GROUP000001;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B1DEMO01PRODUCTS0GROUP01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471A2A3A1E66D27900217BE4 /* LevelPlayDemo */,
+				D79309FF0A07D2BB020BCAAD /* LevelPlayDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1DEMO01RESOURCESBLD0001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DEMO01RESOURCESBLD0002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		130BDF3FB7348BCF7DF02E5A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LevelPlayDemo/Pods-LevelPlayDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LevelPlayDemo/Pods-LevelPlayDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LevelPlayDemo/Pods-LevelPlayDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B8E4090582427BCBEE52A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LevelPlayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98FA0B29F464691DBBB55595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LevelPlayDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1DEMO01SOURCESBUILD0001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DEMO01SOURCESBUILD0002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1DEMO01TARGETDEPEND0001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 471A2A3A1E66D27900217BE4 /* LevelPlayDemo */;
+			targetProxy = B1DEMO01CONTAINERPROXY01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1DEMO01PRJDBGCONFIG001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1DEMO01PRJRELCONFIG001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1DEMO01TGTDBGCONFIG001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB50866BC4B0C7C801C26D3 /* Pods-LevelPlayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LevelPlayDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.levelplay.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1DEMO01TGTRELCONFIG001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECFBC7DAAD837E9D09A81E9 /* Pods-LevelPlayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LevelPlayDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.levelplay.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1DEMO01TSTDBGCONFIG001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C92BC18A3D67B4F786BE1BA /* Pods-LevelPlayDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.levelplay.demo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevelPlayDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LevelPlayDemo";
+			};
+			name = Debug;
+		};
+		B1DEMO01TSTRELCONFIG001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C756668A0A4894AA4188A4 /* Pods-LevelPlayDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.levelplay.demo.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LevelPlayDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LevelPlayDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1DEMO01PRJCFGLIST000001 /* Build configuration list for PBXProject "LevelPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DEMO01PRJDBGCONFIG001 /* Debug */,
+				B1DEMO01PRJRELCONFIG001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DEMO01TGTCFGLIST000001 /* Build configuration list for PBXNativeTarget "LevelPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DEMO01TGTDBGCONFIG001 /* Debug */,
+				B1DEMO01TGTRELCONFIG001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DEMO01TSTCFGLIST000001 /* Build configuration list for PBXNativeTarget "LevelPlayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DEMO01TSTDBGCONFIG001 /* Debug */,
+				B1DEMO01TSTRELCONFIG001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1DEMO01PROJECT00000001 /* Project object */;
+}

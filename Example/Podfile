@@ -1,0 +1,16 @@
+platform :ios, '13.0'
+
+target 'LevelPlayDemo' do
+  use_frameworks!
+
+  # IronSource LevelPlay SDK
+  pod 'IronSourceSDK'
+
+  # Opera Ads SDK + LevelPlay Adapter
+  pod 'OpAdxSdk', '2.11.2'
+  pod 'IronSourceOperaSDKAdapter', '2.11.2.0'
+
+  target 'LevelPlayDemoTests' do
+    inherit! :search_paths
+  end
+end
