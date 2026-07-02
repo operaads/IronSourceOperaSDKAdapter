@@ -1,0 +1,2011 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "OpAdxAdapterUnity",
+    "printedName": "OpAdxAdapterUnity",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "OpAdxSdk",
+        "printedName": "OpAdxSdk",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISOperaAdsCustomAdapter",
+        "printedName": "ISOperaAdsCustomAdapter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "`init`",
+            "printedName": "`init`(_:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISNetworkInitializationDelegate",
+                "printedName": "any IronSource.ISNetworkInitializationDelegate",
+                "usr": "c:objc(pl)ISNetworkInitializationDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter(im)init:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity016ISOperaAdsCustomC0C4init_8delegateySo8ISAdDataC_So31ISNetworkInitializationDelegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "init:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkSDKVersion",
+            "printedName": "networkSDKVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter(im)networkSDKVersion",
+            "mangledName": "$s17OpAdxAdapterUnity016ISOperaAdsCustomC0C17networkSDKVersionSSyF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "networkSDKVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter(im)adapterVersion",
+            "mangledName": "$s17OpAdxAdapterUnity016ISOperaAdsCustomC0C14adapterVersionSSyF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "adapterVersion",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomAdapter",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomAdapter",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter(im)init",
+            "mangledName": "$s17OpAdxAdapterUnity016ISOperaAdsCustomC0CACycfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomAdapter",
+        "mangledName": "$s17OpAdxAdapterUnity016ISOperaAdsCustomC0C",
+        "moduleName": "OpAdxAdapterUnity",
+        "objc_name": "ISOperaAdsCustomAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseNetworkAdapter",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseNetworkAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "OpAdxSdk",
+        "printedName": "OpAdxSdk",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISOperaAdsCustomBanner",
+        "printedName": "ISOperaAdsCustomBanner",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(with:viewController:size:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISBannerSize",
+                "printedName": "IronSource.ISBannerSize",
+                "usr": "c:objc(cs)ISBannerSize"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISBannerAdDelegate",
+                "printedName": "any IronSource.ISBannerAdDelegate",
+                "usr": "c:objc(pl)ISBannerAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)loadAdWithAdData:viewController:size:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC6loadAd4with14viewController4size8delegateySo8ISAdDataC_So06UIViewM0CSo12ISBannerSizeCSo0sJ8Delegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "loadAdWithAdData:viewController:size:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyAd",
+            "printedName": "destroyAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)destroyAdWithAdData:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC9destroyAd4withySo8ISAdDataC_tF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "destroyAdWithAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdDidLoad",
+            "printedName": "bannerAdDidLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdDidLoad:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC15bannerAdDidLoadyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdDidLoad:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAd",
+            "printedName": "bannerAd(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxAdError",
+                "printedName": "OpAdxSdk.OpAdxAdError",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAd:didFailWithError:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC8bannerAd_16didFailWithErrory0aB3Sdk0abhJ6BridgeC_AF0abjN0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAd:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdDidDisplay",
+            "printedName": "bannerAdDidDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdDidDisplay:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC18bannerAdDidDisplayyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdDidDisplay:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdDidClick",
+            "printedName": "bannerAdDidClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdDidClick:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC16bannerAdDidClickyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdDidClick:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdDidClose",
+            "printedName": "bannerAdDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdDidClose:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC16bannerAdDidCloseyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdWillLeaveApplication",
+            "printedName": "bannerAdWillLeaveApplication(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdWillLeaveApplication:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC28bannerAdWillLeaveApplicationyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdWillLeaveApplication:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "bannerAdDidReturnToApplication",
+            "printedName": "bannerAdDidReturnToApplication(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxBannerAdBridge",
+                "printedName": "OpAdxSdk.OpAdxBannerAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxBannerAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)bannerAdDidReturnToApplication:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC30bannerAdDidReturnToApplicationyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "bannerAdDidReturnToApplication:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomBanner",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomBanner",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)init:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerCyACSo15ISAdapterConfigCcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomBanner",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomBanner",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)initWithAdFormat:adapterConfig:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC8adFormat13adapterConfigACSS_So09ISAdapterL0Ctcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:adUnitObjectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomBanner",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomBanner",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC8adFormat13adapterConfig0I12UnitObjectIdACSS_So09ISAdapterL0C10Foundation4UUIDVSgtcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomBanner",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomBanner",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner(im)init",
+            "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerCACycfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomBanner",
+        "mangledName": "$s17OpAdxAdapterUnity22ISOperaAdsCustomBannerC",
+        "moduleName": "OpAdxAdapterUnity",
+        "objc_name": "ISOperaAdsCustomBanner",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseBanner",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseBanner",
+          "IronSource.ISBaseAdAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OpAdxBannerAdDelegate",
+            "printedName": "OpAdxBannerAdDelegate",
+            "usr": "c:@M@OpAdxSdk@objc(pl)OpAdxBannerAdDelegate",
+            "mangledName": "$s8OpAdxSdk0aB16BannerAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "OpAdxSdk",
+        "printedName": "OpAdxSdk",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISOperaAdsCustomInterstitial",
+        "printedName": "ISOperaAdsCustomInterstitial",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(with:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISInterstitialAdDelegate",
+                "printedName": "any IronSource.ISInterstitialAdDelegate",
+                "usr": "c:objc(pl)ISInterstitialAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)loadAdWithAdData:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC6loadAd4with8delegateySo8ISAdDataC_So014ISInterstitialJ8Delegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "loadAdWithAdData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(with:adData:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISInterstitialAdDelegate",
+                "printedName": "any IronSource.ISInterstitialAdDelegate",
+                "usr": "c:objc(pl)ISInterstitialAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)showAdWithViewController:adData:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC6showAd4with6adData8delegateySo16UIViewControllerC_So04ISAdM0CSo014ISInterstitialJ8Delegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "showAdWithViewController:adData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyAd",
+            "printedName": "destroyAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)destroyAdWithAdData:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC9destroyAd4withySo8ISAdDataC_tF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "destroyAdWithAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAdDidLoad",
+            "printedName": "interstitialAdDidLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAdDidLoad:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC21interstitialAdDidLoadyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAdDidLoad:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAd",
+            "printedName": "interstitialAd(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxAdError",
+                "printedName": "OpAdxSdk.OpAdxAdError",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAd:didFailWithError:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC14interstitialAd_16didFailWithErrory0aB3Sdk0abhJ6BridgeC_AF0abjN0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAd:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAdDidDisplay",
+            "printedName": "interstitialAdDidDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAdDidDisplay:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC24interstitialAdDidDisplayyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAdDidDisplay:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAdDidClick",
+            "printedName": "interstitialAdDidClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAdDidClick:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC22interstitialAdDidClickyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAdDidClick:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAdDidClose",
+            "printedName": "interstitialAdDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAdDidClose:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC22interstitialAdDidCloseyy0aB3Sdk0abhJ6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAdDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "interstitialAd",
+            "printedName": "interstitialAd(_:didFailToDisplayWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxInterstitialAdBridge",
+                "printedName": "OpAdxSdk.OpAdxInterstitialAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxInterstitialAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxAdError",
+                "printedName": "OpAdxSdk.OpAdxAdError",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)interstitialAd:didFailToDisplayWithError:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC14interstitialAd_25didFailToDisplayWithErrory0aB3Sdk0abhJ6BridgeC_AF0abjP0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "interstitialAd:didFailToDisplayWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomInterstitial",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomInterstitial",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)init:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialCyACSo15ISAdapterConfigCcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomInterstitial",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomInterstitial",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)initWithAdFormat:adapterConfig:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC8adFormat13adapterConfigACSS_So09ISAdapterL0Ctcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:adUnitObjectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomInterstitial",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomInterstitial",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC8adFormat13adapterConfig0I12UnitObjectIdACSS_So09ISAdapterL0C10Foundation4UUIDVSgtcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomInterstitial",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomInterstitial",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial(im)init",
+            "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialCACycfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomInterstitial",
+        "mangledName": "$s17OpAdxAdapterUnity28ISOperaAdsCustomInterstitialC",
+        "moduleName": "OpAdxAdapterUnity",
+        "objc_name": "ISOperaAdsCustomInterstitial",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseInterstitial",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseInterstitial",
+          "IronSource.ISBaseAdInteractionAdapter",
+          "IronSource.ISBaseAdAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OpAdxInterstitialAdDelegate",
+            "printedName": "OpAdxInterstitialAdDelegate",
+            "usr": "c:@M@OpAdxSdk@objc(pl)OpAdxInterstitialAdDelegate",
+            "mangledName": "$s8OpAdxSdk0aB22InterstitialAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "IronSource",
+        "printedName": "IronSource",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "Import",
+        "name": "OpAdxSdk",
+        "printedName": "OpAdxSdk",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ISOperaAdsCustomRewardedVideo",
+        "printedName": "ISOperaAdsCustomRewardedVideo",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "isAdAvailable",
+            "printedName": "isAdAvailable(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)isAdAvailableWithAdData:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC13isAdAvailable4withSbSo8ISAdDataC_tF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "isAdAvailableWithAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAd",
+            "printedName": "loadAd(with:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISRewardedVideoAdDelegate",
+                "printedName": "any IronSource.ISRewardedVideoAdDelegate",
+                "usr": "c:objc(pl)ISRewardedVideoAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)loadAdWithAdData:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC6loadAd4with8delegateySo8ISAdDataC_So010ISRewardediK8Delegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "loadAdWithAdData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showAd",
+            "printedName": "showAd(with:adData:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISRewardedVideoAdDelegate",
+                "printedName": "any IronSource.ISRewardedVideoAdDelegate",
+                "usr": "c:objc(pl)ISRewardedVideoAdDelegate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)showAdWithViewController:adData:delegate:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC6showAd4with6adData8delegateySo16UIViewControllerC_So04ISAdN0CSo010ISRewardediK8Delegate_ptF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "showAdWithViewController:adData:delegate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destroyAd",
+            "printedName": "destroyAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdData",
+                "printedName": "IronSource.ISAdData",
+                "usr": "c:objc(cs)ISAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)destroyAdWithAdData:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC9destroyAd4withySo8ISAdDataC_tF",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "objc_name": "destroyAdWithAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAdDidLoad",
+            "printedName": "rewardedAdDidLoad(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAdDidLoad:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC17rewardedAdDidLoadyy0aB3Sdk0abhK6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAdDidLoad:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxAdError",
+                "printedName": "OpAdxSdk.OpAdxAdError",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAd:didFailWithError:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC10rewardedAd_16didFailWithErrory0aB3Sdk0abhK6BridgeC_AF0abkO0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAd:didFailWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAdDidDisplay",
+            "printedName": "rewardedAdDidDisplay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAdDidDisplay:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC20rewardedAdDidDisplayyy0aB3Sdk0abhK6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAdDidDisplay:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAdDidClick",
+            "printedName": "rewardedAdDidClick(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAdDidClick:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC18rewardedAdDidClickyy0aB3Sdk0abhK6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAdDidClick:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAdDidClose",
+            "printedName": "rewardedAdDidClose(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAdDidClose:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC18rewardedAdDidCloseyy0aB3Sdk0abhK6BridgeCF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAdDidClose:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd(_:didFailToDisplayWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxAdError",
+                "printedName": "OpAdxSdk.OpAdxAdError",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxAdError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAd:didFailToDisplayWithError:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC10rewardedAd_25didFailToDisplayWithErrory0aB3Sdk0abhK6BridgeC_AF0abkQ0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAd:didFailToDisplayWithError:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rewardedAd",
+            "printedName": "rewardedAd(_:didRewardUserWithItem:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardedAdBridge",
+                "printedName": "OpAdxSdk.OpAdxRewardedAdBridge",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardedAdBridge"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OpAdxRewardItem",
+                "printedName": "OpAdxSdk.OpAdxRewardItem",
+                "usr": "c:@M@OpAdxSdk@objc(cs)OpAdxRewardItem"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)rewardedAd:didRewardUserWithItem:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC10rewardedAd_21didRewardUserWithItemy0aB3Sdk0abhK6BridgeC_AF0abmP0CtF",
+            "moduleName": "OpAdxAdapterUnity",
+            "objc_name": "rewardedAd:didRewardUserWithItem:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomRewardedVideo",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomRewardedVideo",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)init:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoCyACSo15ISAdapterConfigCcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomRewardedVideo",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomRewardedVideo",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)initWithAdFormat:adapterConfig:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC8adFormat13adapterConfigACSS_So09ISAdapterM0Ctcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adFormat:adapterConfig:adUnitObjectId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomRewardedVideo",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomRewardedVideo",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ISAdapterConfig",
+                "printedName": "IronSource.ISAdapterConfig",
+                "usr": "c:objc(cs)ISAdapterConfig"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.UUID?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UUID",
+                    "printedName": "Foundation.UUID",
+                    "usr": "s:10Foundation4UUIDV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC8adFormat13adapterConfig0J12UnitObjectIdACSS_So09ISAdapterM0C10Foundation4UUIDVSgtcfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithAdFormat:adapterConfig:adUnitObjectId:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ISOperaAdsCustomRewardedVideo",
+                "printedName": "OpAdxAdapterUnity.ISOperaAdsCustomRewardedVideo",
+                "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo(im)init",
+            "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoCACycfc",
+            "moduleName": "OpAdxAdapterUnity",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OpAdxAdapterUnity@objc(cs)ISOperaAdsCustomRewardedVideo",
+        "mangledName": "$s17OpAdxAdapterUnity29ISOperaAdsCustomRewardedVideoC",
+        "moduleName": "OpAdxAdapterUnity",
+        "objc_name": "ISOperaAdsCustomRewardedVideo",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ISBaseRewardedVideo",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "IronSource.ISBaseRewardedVideo",
+          "IronSource.ISBaseAdInteractionAdapter",
+          "IronSource.ISBaseAdAdapter",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "OpAdxRewardedAdDelegate",
+            "printedName": "OpAdxRewardedAdDelegate",
+            "usr": "c:@M@OpAdxSdk@objc(pl)OpAdxRewardedAdDelegate",
+            "mangledName": "$s8OpAdxSdk0aB18RewardedAdDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OpAdxAdapterUnity"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/luanchen\/Documents\/gitlab\/OpAdxSdk_osa\/Adapter\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/ISOperaAdsCustomAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 176,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/luanchen\/Documents\/gitlab\/OpAdxSdk_osa\/Adapter\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/ISOperaAdsCustomAdapter.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 27,
+      "value": "\"com.opera.opadxunity.init\""
+    },
+    {
+      "filePath": "\/Users\/luanchen\/Documents\/gitlab\/OpAdxSdk_osa\/Adapter\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/ISOperaAdsCustomBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 314,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/luanchen\/Documents\/gitlab\/OpAdxSdk_osa\/Adapter\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/ISOperaAdsCustomInterstitial.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/luanchen\/Documents\/gitlab\/OpAdxSdk_osa\/Adapter\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/OpAdxAdapterUnity\/ISOperaAdsCustomRewardedVideo.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
