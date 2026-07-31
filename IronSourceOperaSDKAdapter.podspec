@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   # ――― 基本信息 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "IronSourceOperaSDKAdapter"
-  spec.version      = "2.11.2.0"
+  spec.version      = "2.12.0.0"
   spec.summary      = "Opera Ads Custom Adapter for IronSource (Unity LevelPlay) Mediation Platform."
   spec.description  = <<-DESC
     IronSourceOperaSDKAdapter is a custom mediation adapter that enables the integration of
@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'IronSourceSDK', '>= 9.3.0.0'
 
   # Opera Ads SDK - 使用CocoaPods发布的版本
-  spec.dependency 'OpAdxSdk', '2.11.2'
+  spec.dependency 'OpAdxSdk', '2.12.0'
 
   # ――― 元数据 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
