@@ -22,7 +22,7 @@ IronSourceOperaSDKAdapter is a custom mediation adapter that enables seamless in
 
 - iOS 13.0+
 - IronSource SDK 9.3.0.0+
-- OpAdxSdk 2.12.0
+- OpAdxSdk 2.12.1
 - Xcode 16.0+
 
 ## Installation
@@ -36,10 +36,10 @@ Add the following to your `Podfile`:
 pod 'IronSourceSDK', '>= 9.3.0.0'
 
 # Opera Ads SDK
-pod 'OpAdxSdk', '2.12.0'
+pod 'OpAdxSdk', '2.12.1'
 
 # Opera Ads LevelPlay Adapter
-pod 'IronSourceOperaSDKAdapter', '2.12.0.0'
+pod 'IronSourceOperaSDKAdapter', '2.12.1.0'
 ```
 
 Then run:
@@ -105,6 +105,9 @@ On the **Ad Units** page, add Opera Ads as an ad source:
 | **Bundle ID** | `operaBundleId` | Your iOS App Store ID |
 
 ## Version History
+
+### 2.12.1.0 (2026-08-13)
+- Upgraded OpAdxSdk dependency to 2.12.1
 
 ### 2.12.0.0 (2026-07-31)
 - Upgraded OpAdxSdk dependency to 2.12.0

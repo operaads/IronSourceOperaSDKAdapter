@@ -7,8 +7,8 @@ target 'LevelPlayDemo' do
   pod 'IronSourceSDK'
 
   # Opera Ads SDK + LevelPlay Adapter
-  pod 'OpAdxSdk', '2.12.0'
-  pod 'IronSourceOperaSDKAdapter', '2.12.0.0'
+  pod 'OpAdxSdk', '2.12.1'
+  pod 'IronSourceOperaSDKAdapter', '2.12.1.0'
 
   target 'LevelPlayDemoTests' do
     inherit! :search_paths
