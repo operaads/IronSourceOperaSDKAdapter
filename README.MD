@@ -22,7 +22,7 @@ IronSourceOperaSDKAdapter 是一个自定义聚合适配器，使 Opera Advertis
 
 - iOS 13.0+
 - IronSource SDK 9.3.0.0+
-- OpAdxSdk 2.14.0
+- OpAdxSdk 2.15.0
 - Xcode 16.0+
 
 ## 安装
@@ -36,10 +36,10 @@ IronSourceOperaSDKAdapter 是一个自定义聚合适配器，使 Opera Advertis
 pod 'IronSourceSDK', '>= 9.3.0.0'
 
 # Opera Ads SDK
-pod 'OpAdxSdk', '2.14.0'
+pod 'OpAdxSdk', '2.15.0'
 
 # Opera Ads LevelPlay 适配器
-pod 'IronSourceOperaSDKAdapter', '2.14.0.0'
+pod 'IronSourceOperaSDKAdapter', '2.15.0.0'
 ```
 
 然后运行：
@@ -105,6 +105,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 | **Bundle ID** | `operaBundleId` | App 在苹果商店的数字 ID |
 
 ## 版本历史
+
+### 2.15.0.0 (2026-10-10)
+- 升级依赖 OpAdxSdk 至 2.15.0
 
 ### 2.14.0.0 (2026-09-01)
 - 升级依赖 OpAdxSdk 至 2.14.0
